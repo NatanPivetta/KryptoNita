@@ -1,4 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+/* CSS HEX
+--lime-green: #4FCF06ff;
+--black: #000000ff;
+--black-2: #000000ff;
+--lime-green-2: #55D802ff;
+--eton-blue: #A6C9A9ff;
+
+ CSS HSL 
+--lime-green: hsla(98, 94%, 42%, 1);
+--black: hsla(0, 0%, 0%, 1);
+--black-2: hsla(0, 0%, 0%, 1);
+--lime-green-2: hsla(97, 98%, 43%, 1);
+--eton-blue: hsla(125, 24%, 72%, 1);
+*/
+
 
 * {
     padding: 0;
@@ -6,27 +22,55 @@
     box-sizing: border-box;
 }
 
+#bg{
+    background-image: url('img/BG2.svg');
+    background-color: rgba(000, 000, 000, 0.8);
+    background-blend-mode: multiply;
+}
+
 body{
     height: 100vh;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: #303030;
+    font-family: 'Nerko One', cursive;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 #nav-bar {
     display: flex;
     height: 80px;
     width: 100vw;
-    background-color: red;
+    background-color: #383838;
+    
+      
 }
 
 #logo {
+    background-color: #383838;
     display: flex;
     align-items: center;
     width: 188px;
     justify-content: center;
-    background-color: green;
+    text-decoration: none;
+    
+}
+
+
+#logo, img{
+    padding: 5px;
+    height: 80px;
+    width: 188px;
+}
+
+#logo a:hover{
+    background-color: hsla(98, 94%, 42%, 0.2) ;
 }
 
 #nav-bar ul {
@@ -35,17 +79,32 @@ body{
     justify-content: space-evenly;
     width: 100vw;
     list-style: none;
-    background-color: yellow;
+    text-decoration: none;
 }
 
 #nav-bar li {
-    margin-top: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-top: 20px;
+    font-size: 2em;
+    
+}
+
+.nav-bar-links li, a{
+    transition: all 0.2s ease 0s;
+    text-decoration: none;
+    color: #4FCF06ff;
+}
+
+.nav-bar-links li, a:hover{
+    text-decoration: none;
+    background-color: hsla(98, 94%, 42%, 0.2);
+    box-shadow: 0px 0px 20px 0px hsla(98, 94%, 42%, 0.4);
+    border: none;
+    border-radius: 50%;
+    transition: all 0.2s ease 0s;
 }
 
 #profile {
-    width: 40vw;
+    width: 120px;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -53,24 +112,22 @@ body{
     float: right;
 }
 
-#price-bar {
-    display: inline-block;
-    text-align: center;
-    background: rgba(217, 217, 217, 0.3);
-    left: 0px;
-    position: absolute;
-    width: 1070px;
-    overflow: hidden;
+#profile img{
+    width: 60px;
+    height: 60px;
 }
 
+
+
 .marquee {
-    background: rgba(217, 217, 217, 0.3);
+    background: #303030;
     display: inline-block;
     text-align: center;
     width: 100vw;
     height: 40px;
     overflow: hidden;
     position: relative;
+    box-shadow: 0px 0px 20px 0px hsla(98, 94%, 42%, 0.4);
 
 }
 
@@ -93,6 +150,7 @@ body{
 
 
 .marquee-content{
+    font-family: 'Nerko One', cursive;
     list-style: none;
     height: 100%;
     display: flex;
@@ -109,6 +167,7 @@ body{
 }
 
 .marquee-content li{
+    padding-left: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,6 +175,7 @@ body{
     flex-shrink: 0;
     font-size: 1.5rem;
     white-space: nowrap;
+    color: #4FCF06ff;
 
 }
 
@@ -125,14 +185,24 @@ body{
 
 
 #create-note {
+    font-family: 'Nerko One', cursive;
     position: absolute;
     width: 165px;
     height: 70px;
     left: 80px;
     top: 178px;
-
-    background: rgba(217, 217, 217, 0.3);
+    background: #303030;
     border-radius: 80px;
+    border-color: #4FCF06ff;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #4FCF06ff;
+    cursor: pointer;
+}
+
+#create-note:hover{
+    background-color: hsla(98, 94%, 42%, 0.2);
+    box-shadow: 0px 0px 20px 0px hsla(98, 94%, 42%, 0.4);
 }
 
 .table_list {
@@ -142,9 +212,20 @@ body{
     left: 80px;
     right: 80px;
     top: 287px;
-    border: 1px #8b6303 solid;
+    border: 3px #8b6303 solid;
+    border-radius: 5px;
     box-shadow: antiquewhite;
-    background-color: #c0c0c0;
-    /*background-image: radial-gradient(circle, #c0c0c0 70%, black);*/
+    background-color: rgb(0, 0, 0, 0.4);
+    color: #4FCF06ff;
+    border-collapse: collapse;
+}
 
+.table-list, td:first-child{
+    color: #4FCF06ff;
+    border-color: white;
+}
+.table-list, td{
+    
+    color: white;
+    border: 1px solid;
 }

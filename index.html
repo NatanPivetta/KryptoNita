@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body>
-    <nav id="nav-bar">
-        <div id="logo">LOGO</div>
-        <ul>
-            <li>Markets</li>
-            <li>Portfolio</li> 
-        </ul>
-        <div id="profile">
-            <p >Profile</p>
+
+<body id="bg">
+
+    <header>
+        <div id="logo">
+            <a href="#"><img src="img/logotexth.svg" alt="logo"></a>
         </div>
-    </nav>
+        <nav id="nav-bar">
+            <ul>
+                <li class="nav-bar-links"><a href="markets.html">Markets</a></li>
+                <li class="nav-bar-links"><a href="portflio.html">Portfolio</a></li>
+            </ul>
+            <div id="profile">
+                <a href="profile.html"><img src="img/user.png" alt="profile"></a>
+            </div>
+        </nav>
+    </header>
+
     <div class="marquee">
         <ul class="marquee-content">
             <li>BTC: R$ 83.555</li>
@@ -30,8 +38,8 @@
             <li>USD: R$ 5.43</li>
             <li>ETH: R$ 6.453</li>
         </ul>
-      </div>
-        <button id="create-note">CREATE NOTE</button>
+    </div>
+    <button id="create-note">CREATE NOTE</button>
     </div>
     <div>
         <table class="table_list">
@@ -82,6 +90,7 @@
             </tr>
         </table>
     </div>
-<script src="app.js"></script>
+    <script src="app.js"></script>
 </body>
+
 </html>
