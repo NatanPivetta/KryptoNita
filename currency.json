@@ -1,0 +1,94 @@
+
+    {
+        "USDBRL": {
+            "code": "USD",
+            "codein": "BRL",
+            "name": "Dólar Americano/Real Brasileiro",
+            "high": "5.3168",
+            "low": "5.2445",
+            "varBid": "-0.0133",
+            "pctChange": "-0.25",
+            "bid": "5.2558",
+            "ask": "5.2565",
+            "timestamp": "1669824081",
+            "create_date": "2022-11-30 13:01:21"
+        },
+        "EURBRL": {
+            "code": "EUR",
+            "codein": "BRL",
+            "name": "Euro/Real Brasileiro",
+            "high": "5.5139",
+            "low": "5.4106",
+            "varBid": "-0.0311",
+            "pctChange": "-0.57",
+            "bid": "5.4098",
+            "ask": "5.4116",
+            "timestamp": "1669824081",
+            "create_date": "2022-11-30 13:01:21"
+        },
+        "ETHBRL": {
+            "code": "ETH",
+            "codein": "BRL",
+            "name": "Ethereum/Real Brasileiro",
+            "high": "6.7838",
+            "low": "6.41937",
+            "varBid": "262.77",
+            "pctChange": "4.07",
+            "bid": "6.70572",
+            "ask": "6.71115",
+            "timestamp": "1669824053",
+            "create_date": "2022-11-30 13:00:53"
+        },
+        "BTCBRL": {
+            "code": "BTC",
+            "codein": "BRL",
+            "name": "Bitcoin/Real Brasileiro",
+            "high": "90.393",
+            "low": "87.1",
+            "varBid": "2129",
+            "pctChange": "2.44",
+            "bid": "89.412",
+            "ask": "89.445",
+            "timestamp": "1669824052",
+            "create_date": "2022-11-30 13:00:52"
+        },
+        "DOGEBRL": {
+            "code": "DOGE",
+            "codein": "BRL",
+            "name": "Dogecoin/Real Brasileiro",
+            "high": "0.57567",
+            "low": "0.530948",
+            "varBid": "0.00958998",
+            "pctChange": "1.77",
+            "bid": "0.551188",
+            "ask": "0.551188",
+            "timestamp": "1669824075",
+            "create_date": "2022-11-30 13:01:15"
+        },
+        "LTCBRL": {
+            "code": "LTC",
+            "codein": "BRL",
+            "name": "Litecoin/Real Brasileiro",
+            "high": "425",
+            "low": "399.71",
+            "varBid": "9.54",
+            "pctChange": "2.37",
+            "bid": "410.56",
+            "ask": "411.54",
+            "timestamp": "1669824051",
+            "create_date": "2022-11-30 13:00:51"
+        },
+        "XRPBRL": {
+            "code": "XRP",
+            "codein": "BRL",
+            "name": "XRP/Real Brasileiro",
+            "high": "2.17",
+            "low": "2.06",
+            "varBid": "0.04",
+            "pctChange": "1.87",
+            "bid": "2.12",
+            "ask": "2.13",
+            "timestamp": "1669823967",
+            "create_date": "2022-11-30 12:59:27"
+        }
+    }
