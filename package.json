@@ -2,7 +2,7 @@
   "name": "krypto",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.html",
   "dependencies": {
     "ajv": "^6.12.6",
     "asn1": "^0.2.6",
