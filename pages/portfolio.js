@@ -13,6 +13,7 @@ function clock() {
       var doge = myObj.DOGEBRL;
       var ltc = myObj.LTCBRL;
 
+
       // alteração dos elementos na price bar
 
       document.getElementById("btcprice").innerHTML = `BTC: R$ ${btc.high}`;
@@ -23,16 +24,12 @@ function clock() {
       document.getElementById("ltcprice").innerHTML = `LTC: R$ ${ltc.high}`;
 
 
-      document.getElementById("card1-price").innerHTML = `R$ ${btc.high}`;
-      document.getElementById("card1-var").innerHTML = `${btc.pctChange} %`;
-
-
-      document.getElementById("card2-price").innerHTML = `R$ ${doge.high}`;
-      document.getElementById("card2-var").innerHTML = `${doge.pctChange} %`;
+      
+      
     }
-
+    
   }
-
+   
 
   const moedas = "USD-BRL,EUR-BRL,BTC-BRL,ETH-BRL,DOGE-BRL,LTC-BRL"
   xmlhttp.open("GET", `https://economia.awesomeapi.com.br/last/${moedas}`, true);

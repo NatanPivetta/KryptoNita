@@ -349,8 +349,13 @@ td:first-child {
 
 .table-list,
 td {
-
+    height: 40px;
     color: white;
+    border: 1px solid;
+}
+
+.table_list th{
+    height: 40px;
     border: 1px solid;
 }
 
