@@ -35,12 +35,24 @@ function createRow(table_list) {
   cel5.innerHTML = `${gainPct} %`;
 
 
+  // var els = document.getElementsByName("");
+  // var valorcalculado = 0;
+  // [].forEach.call(els, function (el) 
+  // {
+  //   valorcalculado += parseInt(el.innerHTML);
+  // });
+
+  // document.getElementById("qtdtotal").innerHTML = valorcalculado;
+
+
+
   document.getElementById("moeda").value = "";
   document.getElementById("qntd").value = "";
   document.getElementById("buyValue").value = "";
 
-}
+  
 
+}
 
 function clock() {
 

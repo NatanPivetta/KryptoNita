@@ -309,7 +309,7 @@ a:hover {
     padding: auto;
     width: 100px;
     height: 50px;
-    margin: 5px;
+    margin: 10px;
     padding: auto;
     background: #303030;
     border-radius: 80px;
@@ -348,7 +348,7 @@ a:hover {
     height: 300px;
     margin: auto;
     margin-top: 10%;
-    margin-bottom: 25%;
+    margin-bottom: 20px;
     border: 3px #8b6303 solid;
     border-radius: 5px;
     box-shadow: 0 0 20px 0 antiquewhite;
@@ -439,6 +439,8 @@ td {
   }
 
   .formu{
+    padding: 20px;
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -451,6 +453,16 @@ td {
     text-align: center;
     align-content: center;
     margin: auto;
+  }
+
+  .total{
+    color: whitesmoke;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    position: relative;
+    margin: auto;
+    padding: 10px 0px 30px;
   }
 
   
