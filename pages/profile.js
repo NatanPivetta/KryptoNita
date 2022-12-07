@@ -23,6 +23,13 @@ function clock() {
       document.getElementById("dogeprice").innerHTML = `DOGE: R$ ${doge.high}`;
       document.getElementById("ltcprice").innerHTML = `LTC: R$ ${ltc.high}`;
 
+      document.getElementById("btcprice1").innerHTML = `BTC: R$ ${btc.high}`;
+      document.getElementById("ethprice1").innerHTML = `ETH: R$ ${eth.high}`;
+      document.getElementById("usdprice1").innerHTML = `USD: R$ ${usd.high}`;
+      document.getElementById("eurprice1").innerHTML = `EUR: R$ ${eur.high}`;
+      document.getElementById("dogeprice1").innerHTML = `DOGE: R$ ${doge.high}`;
+      document.getElementById("ltcprice1").innerHTML = `LTC: R$ ${ltc.high}`;
+
 
       
       

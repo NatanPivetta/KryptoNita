@@ -23,15 +23,22 @@ function clock() {
       document.getElementById("dogeprice").innerHTML = `DOGE: R$ ${doge.high}`;
       document.getElementById("ltcprice").innerHTML = `LTC: R$ ${ltc.high}`;
 
+      document.getElementById("btcprice1").innerHTML = `BTC: R$ ${btc.high}`;
+      document.getElementById("ethprice1").innerHTML = `ETH: R$ ${eth.high}`;
+      document.getElementById("usdprice1").innerHTML = `USD: R$ ${usd.high}`;
+      document.getElementById("eurprice1").innerHTML = `EUR: R$ ${eur.high}`;
+      document.getElementById("dogeprice1").innerHTML = `DOGE: R$ ${doge.high}`;
+      document.getElementById("ltcprice1").innerHTML = `LTC: R$ ${ltc.high}`;
+
 
       // alteração dos elementos da tabela
 
-      document.getElementById("btc_price").innerHTML = `R$ ${btc.high}`;
-      document.getElementById("eth_price").innerHTML = `R$ ${eth.high}`;
-      document.getElementById("usd_price").innerHTML = `R$ ${usd.high}`;
-      document.getElementById("eur_price").innerHTML = `R$ ${eur.high}`;
-      document.getElementById("doge_price").innerHTML = `R$ ${doge.high}`;
-      document.getElementById("ltc_price").innerHTML = `R$ ${ltc.high}`;
+      document.getElementById("btc_price").innerHTML = `R$ ${btc.bid}`;
+      document.getElementById("eth_price").innerHTML = `R$ ${eth.bid}`;
+      document.getElementById("usd_price").innerHTML = `R$ ${usd.bid}`;
+      document.getElementById("eur_price").innerHTML = `R$ ${eur.bid}`;
+      document.getElementById("doge_price").innerHTML = `R$ ${doge.bid}`;
+      document.getElementById("ltc_price").innerHTML = `R$ ${ltc.bid}`;
 
 
       document.getElementById("btc_var").innerHTML = `${btc.pctChange} %`;

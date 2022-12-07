@@ -47,34 +47,41 @@
     </div>
 
     <h1>Minhas Moedas</h1>
-    <table class="table_list">
+    <section class="formu">
+        <form novalidate>
+            <label for="moeda">Moeda</label>
+            <input list="moedas" id="moeda" name="moeda">
+            <label for="qntd">Quantidade</label>
+            <input min="number" id="qntd" name="qntd">
+            <label for="buyValue">Valor de compra</label>
+            <input min="number" id="buyValue" name="buyValue">
+    
+            
+    
+        </form>
+        <button id="create-note" type="submit" onclick="createRow()">Submit</button>
+    
+    </section>
+    <table id="table_list_1" border="1">
         <tr>
             <th>Moeda</th>
             <th>Quantidade</th>
             <th>Valor Compra</th>
             <th>Ganhos/Perdas</th>
             <th>G/P %</th>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+        <tr id="tr1">
         </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr></tr>
-        <tr></tr>
-        <tr></tr>
-
-
     </table>
-
+        
+        
+    <datalist id="moedas">
+        <option value="btc"></option>
+        <option value="eth"></option>
+        <option value="usd"></option>
+        <option value="eur"></option>
+        <option value="doge"></option>
+        <option value="ltc"></option>
+    </datalist>
 
     <footer class="footer">
         <div>
