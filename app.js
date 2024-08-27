@@ -1,4 +1,4 @@
-const request = require('request');
+// const request = require('request');
 
 const moedas = 'USD-BRL,BTC-BRL,ETH-BRL';
 
@@ -38,8 +38,8 @@ const callback_ETH = function (err, res, body) {
 
 }
 
-request(options, callback_BTC);
-request(options, callback_ETH);
+//request(options, callback_BTC);
+//request(options, callback_ETH);
 
 //document.getElementById("btc").innerHTML = `${callback_BTC.code} / ${callback_BTC.codein}`;
 //document.getElementById("preco").innerHTML = `${callback_BTC.cotacao}`;
