@@ -342,12 +342,17 @@ a:hover {
     justify-content: center;
 }
 
+#tr1{
+    width: 0;
+    height: 0;
+}
+
 #table_list_1 {
     position: relative;
     width: 80%;
     height: 300px;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-bottom: 20px;
     border: 3px #8b6303 solid;
     border-radius: 5px;
@@ -357,6 +362,7 @@ a:hover {
     border-collapse: collapse;
     text-align: center;
     justify-content: center;
+    align-items: start;
 }
 
 .table-list,
