@@ -29,7 +29,7 @@
 }
 
 #bg {
-    background-image: url('img/BG2.svg');
+    background-image: url('BG2.svg');
     background-color: rgba(000, 000, 000, 0.8);
     background-blend-mode: multiply;
 
@@ -132,7 +132,7 @@ h1 {
 
     #logo {
         background-repeat: no-repeat;
-        content: url(img/logotext.svg);
+        content: url(logotext.svg);
         background-color: #383838;
         display: flex;
         align-items: center;
@@ -159,7 +159,7 @@ h1 {
     }
 
     #logo {
-        content: url(img/logotexth.svg);
+        content: url(logotexth.svg);
         background-color: #383838;
         display: flex;
         align-items: center;
